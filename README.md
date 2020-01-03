@@ -1,0 +1,2 @@
+# Psychometric-Analysis-using-audio-and-visualisation
+psychometric analysis where candidate’s emotions will be captured in real time in a system. When you have information about someone’s personality, their traits and innate reflexes, you can be confident you are choosing the right person, for the right job, and for the right company. That's what this project is about. TENSORFLOW and face-api.js is used to solve face detection, face recognition and face landmark detection optimized for web.
