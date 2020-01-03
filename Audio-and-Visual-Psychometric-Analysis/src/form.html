@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Registration</title>
+    <style>
+        p{
+            margin-top: 300px;
+        }
+    </style>
+    <script>
+        function getData(){
+            debugger;
+            let detail = document.getElementById("first_name").value;
+            let last_name = document.getElementById("last_name").value ;
+            let nationality = document.getElementById("nationality").value;
+            let gender = document.getElementById("gender").value ;
+            let age = document.getElementById("age").value ;
+            location.href = "TinyFaceDetectWebcam.html?var1="+detail+"&var3="+nationality+"&var4="+gender+"&var2="+last_name+"&var5="+age;
+        }
+    </script>
+</head>
+<body>
+<h1 align ="center">Registration</h1>
+<form   align ="center">
+    <table style="with: 50%" align ="center">
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" id="first_name" name="first_name" value=""/></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" id="last_name" name="last_name" /></td>
+        </tr>
+        <tr>
+            <td>Nationality</td>
+            <td><input type="text"  id="nationality" name="Nationality" /></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><input type="text"   id="gender" name="Gender" /></td>
+        </tr>
+         <tr>
+            <td>Age</td>
+            <td><input type="text"   id="age" name="Age" /></td>
+        </tr></table>
+
+    <input type="button" value="Submit" onclick="getData()"/></form>
+</body>
+</html>
